@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayDefinition"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/object1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/white"
+        android:text="@string/object"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/pos1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="100dp"
+        android:textColor="@android:color/white"
+        android:text="@string/pro"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/definitonLBL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/object1"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="20dp"
+        android:text="@string/definition1"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/definiton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/definitonLBL"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="20dp"
+        android:text="@string/definition1"
+        android:textSize="20sp" />
+<!--
+    <Button
+        android:id="@+id/backBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_back"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/definiton1"
+        android:textColor="@android:color/white"/>-->
+
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardId"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black">
+
+            <TextView
+                android:id="@+id/object"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="50dp"
+                android:textColor="@android:color/white"
+                android:text="@string/object"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/pos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="100dp"
+                android:textColor="@android:color/white"
+                android:text="@string/pro"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/definitonLBL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/object"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="20dp"
+                android:text="@string/definition1"
+                android:textSize="15sp" />
+
+
+
+            <Button
+                android:id="@+id/defineBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/definitonLBL"
+                android:background="@android:color/holo_green_dark"
+                android:text="@string/define"
+                android:layout_marginBottom="5dp"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/frenchBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/definitonLBL"
+                android:background="@android:color/holo_red_dark"
+                android:text="@string/french"
+                android:layout_marginBottom="5dp"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
